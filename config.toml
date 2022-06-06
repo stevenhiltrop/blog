@@ -1,3 +1,16 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Security and privacy guides'
+theme = "hugo-theme-learn"
+
+[Params]
+    mainSections = ["basics"]
+    intro = true
+    headline = "My headline"
+    description = "My description"
+    github = "https://github.com/XXX"
+    twitter = "https://twitter.com/XXX"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
