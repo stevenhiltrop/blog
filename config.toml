@@ -14,3 +14,7 @@ theme = "hugo-theme-learn"
     opengraph = true
     shareTwitter = true
     dateFormat = "Mon, Jan 2, 2006"
+
+# For search functionality
+[Outputs]
+    home = [ "HTML", "RSS", "JSON"]
