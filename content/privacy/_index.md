@@ -10,4 +10,4 @@ pre = "<b>1. </b>"
 
 # Guides
 
-Lorem Ipsum.
+{{% children description="true" showhidden="true" style="div" %}}

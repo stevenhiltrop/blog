@@ -5,8 +5,8 @@ weight = 5
 draft = true
 +++
 
-### Chapter X
+### Privacy
 
-# Some Chapter title
+# Linux
 
 Lorem Ipsum.
