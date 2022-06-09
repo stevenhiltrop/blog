@@ -18,10 +18,11 @@ The following advice are based on current trends at the time of writing. Due to 
 Most of the recommendations overlap **anonimity, security and privacy** as I wanted to centralise an easy and quick place of reference with practical examples.
 {{% /notice %}}
 
-
-
 ## Index
-{{% children description="true" style="div"%}}
+{{% children style="div"%}}
 
 ## References
-- [Privacy Guides](https://www.privacyguides.org/)
+- [Recommended tools](https://www.privacyguides.org/tools/)
+- Good streamers 
+    - [Mental outlaw](https://odysee.com/@AlphaNerd:8)
+    - [The hated one](https://www.patreon.com/thehatedone)
