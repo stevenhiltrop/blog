@@ -1,7 +1,7 @@
 +++
 title = "MacOS"
 date = 2022-06-09T11:17:12+07:00
-weight = 5
+description = "Tips for MacOS"
 chapter = true
 +++
 

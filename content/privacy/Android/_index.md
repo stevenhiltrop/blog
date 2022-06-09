@@ -1,7 +1,7 @@
 +++
 title = "Android"
 date = 2022-06-09T11:24:53+07:00
-weight = 5
+description = "Tips for Android"
 draft = true
 +++
 
