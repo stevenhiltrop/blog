@@ -4,7 +4,7 @@ date: 2022-06-09T11:17:12+07:00
 description: "Tips for MacOS"
 ---
 
-'.Site.Language.Lang'
+
 
 ## Introduction
 
@@ -29,7 +29,62 @@ Unsync anything you can. Apple loves to track everything from your location to y
 
 Our MacOS will by default try to sneak in advertisements, call home (tracking), sent metrics every 15 minutes and make life miserable at our cost of trying to keep our privacy. Customise the recommendations below to your to your need.
 
+### Package manager brew
 
+Copy and paste the following into your terminal
+
+```
+xcode-select --install
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+{{% notice note %}}
+Installing xcode-select takes a long time (40 minutes)
+{{% /notice %}}
+
+### Components and relevant tool choices
+| Component | Tool |
+| --- | --- |
+| Browser | Librewolf |
+| Browser Extensions | https://www.privacytools.io/#browser-addons |
+| Mail Client | Thunderbird |
+| Mail Provider | [Protonmail](https://protonmail.com/) Tutanota |
+| Mail Alias | [SimpleLogin](https://simplelogin.io/) |
+| Password Manager | Bitwarden |
+| 2FA | Authy |
+| File encryption / Archive | Keka |
+| Text Messenger | Signal |
+| VoIP | Jitsi-meet |
+| Notes | Joplin |
+| Productivity | Libreoffice |
+| Anonymising Networks | ?   |
+| Torrent | Transmission |
+| Metadata Cleaner | Exifcleaner |
+| VPN | [Lokinet](https://lokinet.org/) |
+| dVPN | [Alliance](https://dvpnalliance.org/) [Sentinel](https://sentinel.co/dvpn/) [Mysterium](https://www.mysteriumvpn.com/) |
+| Cloud Storage | Mega |
+| Social media | Freetube(Video) [Redact (Cleaner)](https://redact.dev/) |
+| DNSSEC + Adblock | [NextDNS](https://nextdns.io/) |
+
+
+#### 1. Automated installation
+
+```
+brew install librewolf thunderbird tutanota bitwarden authy keka jitsi-meet joplin libreoffice exifcleaner megasync freetube
+brew install --cask transmission
+```
+
+#### 2. Manual installation
+
+- [Browser Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions)[](https://www.privacytools.io/#browser-addons)[](https://github.com/arkenfox/user.js/wiki/4.1-Extensions)
+    - User.js: `git clone https://github.com/arkenfox/user.js.git`
+    - uBlock Origin Filters:
+        - [LegitimateURLShortener](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+        - [Clear\_urls\_uboified](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt)
+- SimpleLogin: https://simplelogin.io/
+- ProtonMail: https://protonmail.com/
+- NextDNS: https://nextdns.io/
+- Redact: https://redact.dev/download
 
 ## References
 - [Hardening MacOS](https://www.bejarano.io/hardening-macos/)
