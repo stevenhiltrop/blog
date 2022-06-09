@@ -1,13 +1,13 @@
 +++
 title = "Security"
 date = 2022-06-09T11:00:07+07:00
-weight = 5
+weight = 10
 chapter = true
-pre = "<b>X. </b>"
+pre = "<b>2. </b>"
 +++
 
-### Chapter X
+### Security
 
-# Some Chapter title
+# Index
 
 Lorem Ipsum.
