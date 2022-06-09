@@ -14,3 +14,9 @@ theme = "hugo-theme-learn"
     opengraph = true
     shareTwitter = false
     dateFormat = "Mon, Jan 2, 2006"
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']

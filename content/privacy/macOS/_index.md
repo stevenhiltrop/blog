@@ -4,6 +4,8 @@ date: 2022-06-09T11:17:12+07:00
 description: "Tips for MacOS"
 ---
 
+'.Site.Language.Lang'
+
 ## Introduction
 
 This guide will give you an idea how to set up MacOS in the most private way.
@@ -28,9 +30,12 @@ Unsync anything you can. Apple loves to track everything from your location to y
 Our MacOS will by default try to sneak in advertisements, call home (tracking), sent metrics every 15 minutes and make life miserable at our cost of trying to keep our privacy. Customise the recommendations below to your to your need.
 
 
+
 ## References
 - [Hardening MacOS](https://www.bejarano.io/hardening-macos/)
 - [Disable bluetooth](https://www.computerhope.com/issues/ch002099.htm)
+- [Dr Duh's Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+- [Mad Aidan's Guide](https://madaidans-insecurities.github.io/security-privacy-advice.html#browser)
 
 ## Appendix
 ![App Store](/static/app_store_logout.png)
