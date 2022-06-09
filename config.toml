@@ -4,13 +4,13 @@ title = 'Security and privacy guides'
 theme = "hugo-theme-learn"
 
 [Params]
-    mainSections = ["basics"]
+    mainSections = ["privacy"]
     intro = true
     headline = "My headline"
     description = "My description"
-    github = "https://github.com/XXX"
+    github = "https://github.com/stevenhiltrop"
     twitter = "https://twitter.com/XXX"
     email = "XXX@example.com"
     opengraph = true
-    shareTwitter = true
+    shareTwitter = false
     dateFormat = "Mon, Jan 2, 2006"

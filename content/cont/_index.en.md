@@ -1,7 +1,7 @@
 ---
 title: Content
 weight: 10
-chapter: true
+draft: true
 pre: "<b>2. </b>"
 ---
 
